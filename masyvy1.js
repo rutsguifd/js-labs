@@ -40,4 +40,84 @@ Nm(a);
 
 ================== zavd 2 ============================
 
-upcoming...
+function n(a) {
+    if (0<a<22) alert("34 uroki")
+    else if (23<a<35) alert("kanikuli")
+    else if (36<a<52) alert("35 uroki")
+    else if (a>52) alert("u nas ne tak bahato tyzhniv")
+
+    
+}
+    
+let a1 = parseInt(prompt())
+n(a1)
+
+====================== zavd 3 =========================
+
+function f1(a, b, c, d) {
+    return a+b+c+d
+}
+
+function f2(a, b, c, d) {
+    return a*b*c*d
+}
+
+function f3(a, b, c, d) {
+    return (a+b+c+d)/4
+}
+
+function f3(a, b, c, d) {
+    return Math.min(a, b, c, d)
+}
+
+let a = parseInt(prompt())
+let b = parseInt(prompt())
+let c = parseInt(prompt())
+let d = parseInt(prompt())
+
+alert(f1(a, b, c, d))
+
+alert(f2(a, b, c, d))
+
+alert(f3(a, b, c, d))
+
+alert(f4(a, b, c, d))
+
+=================== zavd 4 ==================
+    
+function f1(a, b, c) {
+    let count = 0
+    if (a%2==0) count++;
+    if (b%2==0) count++;
+    if (c%2==0) count++;
+    return count;
+}
+
+
+let a = parseInt(prompt())
+let b = parseInt(prompt())
+let c = parseInt(prompt())
+
+
+alert(f1(a, b, c))
+
+
+============== zavd 5 ======================
+    
+function f1(a) {
+    return a/2.54
+}
+
+function f2(a) {
+    return a*2,205
+}
+
+function f3(a) {
+    return a/1.609
+}
+
+let a = parseInt(prompt())
+
+alert(f1(a))
+alert(f2(a))
+alert(f3(a))
