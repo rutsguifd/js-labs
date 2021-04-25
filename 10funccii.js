@@ -121,3 +121,42 @@ let a = parseInt(prompt())
 alert(f1(a))
 alert(f2(a))
 alert(f3(a))
+
+============== zavd 6 ======================
+
+let t = document.querySelector('#tt');
+let a = parseInt(prompt());
+let b = parseInt(prompt());
+function aee(a,b){
+for (let i = 0; i < a; i++) {
+    let tr = document.createElement('tr');
+    for (let j = 0; j < b; j++) {
+        let td = document.createElement('td');
+        tr.appendChild(td);
+    }
+    t.appendChild(tr);
+}
+}
+aee(a,b);
+
+============== zavd 7 ======================
+    
+function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
+}
+function ph() {
+    let a = prompt("vvedite put k 1 photo");
+    let b = prompt("vvedite put k 2 photo");
+    let c = prompt("vvedite put k 3 photo");
+    let d = prompt("vvedite put k 4 photo");
+    let arr = [a,b,c,d];
+
+    let i = getRandomInt(4);
+    document.getElementById(img).src=arr[i];
+}
+ph();
+
+============== zavd 8 ======================
+
+    
+ 
