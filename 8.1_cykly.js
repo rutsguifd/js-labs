@@ -13,5 +13,4 @@ a = parseInt(prompt())
 while (a>0) {
     alert(a*a)
     a -= 1
-
 }
