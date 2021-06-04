@@ -37,3 +37,5 @@ while (a<100) {
     let b = parseInt(prompt())
     a+=b
 } 
+
+
