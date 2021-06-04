@@ -50,3 +50,5 @@ let b = a[0]+a[1]
 parseInt(b)
 if (a[a.length-1]==1 && a[a.length-2]==0) alert(b-1)
 else alert(b)
+
+
